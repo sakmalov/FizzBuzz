@@ -1,7 +1,6 @@
-
 def fizzbuzz(number)
   if number <= 0
-    "Not a positive integer"
+    "not a positive integer"
   elsif number % 3 == 0 && number % 5 == 0
     "fizzbuzz"
   elsif number % 3 == 0
